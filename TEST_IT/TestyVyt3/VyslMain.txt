@@ -1,0 +1,113 @@
+Vyhodnocení testu: I2Psi18.txt!
+Vypracoval:  Main (Main)
+Na poèítaèi MAIN-PC (  )
+496/500 (0)
+Test splnìn na 0%
+Známkovací stupnice: 100% - 80% - 60% - 40% - 20% - 0%
+
+Výsledná známka: 5
+
+První X u odpovedi znaèí správné odpovìdi,
+druhé X znaèí tvoje odpovìdi,
+U každé otázky je dosažený poèet bodù za otázku
+
+
+1. otázka, otázka zodpovìzena na 0%
+Šíøka pásma
+	    je u rùzných pøenosových cest stejná
+	    jednotkou je 1bit
+	X   je u rùzných pøenosových cest rùzná
+	    nezávisí na ní maximální pøenosová rychlost
+	    jednotkou je 1Bd
+	    jednotkou je 1Byte
+	X   závisí na ní maximální pøenosová rychlost
+	X   jednotkou je 1Hz
+
+2. otázka, otázka zodpovìzena na 0%
+PCM znamená:
+	    pøenos kódu magneticky
+	    Pizza Curacao Macaronni
+	    Pulse Cosine Measure
+	X   impulsová kódová modulace
+	    pulsnì kvérová medolace
+	X   Pulse Code Modulation
+
+3. otázka, otázka zodpovìzena na 0%
+Amplitudová modulace
+	X   signál, který chceme namodulovat na nosnou mùže být èíslicový i analogový
+	X   k pøenosu signálu využívá rùzné amplitudy nosného signálu
+	    signál, který chceme namodulovat na nosnou mùže být pouze analogový
+	    signál, který chceme namodulovat na nosnou mùže být pouze èíslicový
+	X   jako nosná je obvykle použitý harmonický analogový signál
+	    k pøenosu signálu využívá rùzné hodnoty fáze nosného signálu
+	    jako nosná je obvykle použitý èíslicový signál
+	    k pøenosu signálu využívá rùzné frekvence (kmitoèty) nosného signálu
+
+4. otázka, otázka zodpovìzena na 0%
+Co nám øíká Shannonùv (Shannon - Kotelnikovovùv) vzorkovací teorém?
+	X   libovolný signál lze digitalizovat bez znatelné ztráty informace tehdy, jestliže je frekvence vzorkování alespoò dvojnásobná než nejvyšší frekvence obsažená v signálu.
+	    libovolný signál lze digitalizovat bez znatelné ztráty informace tehdy, jestliže je frekvence vzorkování alespoò trojnásobná než nejvyšší frekvence obsažená v signálu.
+	    digitalizovat analogový signál bez znatelné ztráty kvality nelze.
+	    libovolný signál lze digitalizovat bez znatelné ztráty informace tehdy, jestliže je frekvence vzorkování alespoò ètyønásobná než nejvyšší frekvence obsažená v signálu.
+
+5. otázka, otázka zodpovìzena na 0%
+Pøenosová rychlost
+	    se mìøí v Baudech (Bd)
+	    je to poèet bitù namodulovaných do jednoho stavu nosného signálu
+	    mùže být rovna modulaèní rychlosti jestliže se jedná o jednostavovou modulaci
+	X   je závislá na modulaèní rychlosti a poètu stavù signálu
+	X   mùže být rovna modulaèní rychlosti jestliže se jedná o dvoustavovou modulaci
+	    je to poèet zmìn nosného signálu za jednotku èasu
+	X   je to poèet pøenesených bitù za jednotku èasu
+	X   se mìøí v bitech za sekundu (bps)
+	    mùže být rovna modulaèní rychlosti jestliže se jedná o desetistavovou modulaci
+
+6. otázka, otázka zodpovìzena na 0%
+Pøenosová cesta
+	X   má urèitou šíøku pásma, která je nemìnná
+	    mùže vznikat doèasnì až v pøípadì potøeby spojení dvou míst
+	X   existuje trvale (je to vlastnì technické vybavení)
+	    šíøka pásma se v pøípadì potøeby libovolnì zvyšuje èi snižuje, napø. pomocí multiplexu
+	    vzniká vždy doèasnì (pouze po dobu pøenosu dat)
+
+7. otázka, otázka zodpovìzena na 0%
+Jaké je poøadí zpracování analogového signálu pøi pøevodu na digitální pomocí PCM?
+	    kvantování – vzorkování – kódování – antialiasingový filtr
+	X   antialiasingový filtr – vzorkování – kvantování – kódování
+	    kódování – kvantování – vzorkování – antialiasingový filtr
+	    vzorkování – kvantování – antialiasingový filtr – kódování
+	    kódování – vzorkování – antialiasingový filtr – kvantování
+
+8. otázka, otázka zodpovìzena na 0%
+Èasový multiplex
+	    multiplex zvìtšuje šíøku pásma kanálu, proto je možné pøenášet data rychleji
+	X   umožòuje pøenášet nìkolik signálù souèasnì jedním kanálem tak, že každému signálu je pøidìlena celá šíøka pásma na urèitý èasový okamžik. Tak se všechny signály støídají.
+	    modulované signály s rùznou frekvencí nosné jsou pøenášeny jedním kanálem
+	    celá šíøka pásma je rozdìlena na nìkolik èástí s úmìrnì menší šíøkou pásma a proto je možné pøenášet nìkolik signálù jedním kanálem
+	    využívá nìkolik kanálù s malou šíøkou pásma jako jeden kanál s vìtší šíøkou pásma
+
+9. otázka, otázka zodpovìzena na 0%
+Multiplexing
+	    neexistuje
+	    umožòuje využít nìkolik kanálù s malou šíøkou pásma jako jeden kanál s vìtší šíøkou pásma
+	    mùže být paritní
+	    mùže být fázový
+	    mùže být amplitudový
+	X   mùže být frekvenèní
+	X   mùže být èasový
+	X   umožòuje využít kanál s velkou šíøkou pásma jako nìkolik kanálù s menší šíøkou pásma
+
+10. otázka, otázka zodpovìzena na 0%
+Pøenos v základním pásmu
+	X   je oznaèení pøenosu nemodulovaných signálù
+	    nosný signál použitý pøi pøenosech v základním pásmu je vždy diskrétní
+	    je pøenos nosné, na které je namodulován èíslicový signál
+	    je oznaèení pøenosu modulovaných signálù
+	    používá se napø. pro pøenos rádiových stanic zachytitelných na radiopøijímaèi
+	    využívá nejlépe pøenosovou kapacitu kanálu
+	X   patøí sem i pøenos pomocí kódu Manchester
+	X   je pøenos úrovní napìtí, které jsou pøiøazeny jednotlivým bitùm
+	    je pøenos nosné, na které je namodulován analogový signál (základní)
+	    nosný signál použitý pøi pøenosech v základním pásmu je vždy analogový
+	    je použitelný pøedevším na pøenosy pomocí radiových signálù
+	X   používá se napøíklad pro pøenos dat na tiskárnu
