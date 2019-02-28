@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.key_checker = new System.Windows.Forms.Timer(this.components);
+            this.testy_checker = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // key_checker
+            // testy_checker
             // 
-            this.key_checker.Interval = 1;
-            this.key_checker.Tick += new System.EventHandler(this.key_checker_Tick);
+            this.testy_checker.Interval = 1;
+            this.testy_checker.Tick += new System.EventHandler(this.testy_checker_Tick);
             // 
             // Watermark
             // 
@@ -51,6 +51,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer key_checker;
+        private System.Windows.Forms.Timer testy_checker;
     }
 }

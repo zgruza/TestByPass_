@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using gma.System.Windows;
+using System.Diagnostics;
 
 namespace Caesar_TestFaker
 {
@@ -50,16 +51,27 @@ namespace Caesar_TestFaker
                 }
             }
             ////////////////// NOW WE KNOW TEST FILENAME
+            //// COPY FILE INTO TEMP FOLDER
+            string sourceFile = @"K:\Aplikace\TestyVyt3\Testy\" + TestFile;
+            string tempFile = Path.GetTempPath() + TestFile;
+            try
+            {
+                File.Copy(sourceFile, tempFile, true);
+            }
+            catch (IOException iox)
+            {
+                Application.Exit();
+            }
 
             //// READ TEST FILE
-            var path = Path.Combine(@"K:\Aplikace\TestyVyt3\", "Testy\\" + TestFile);
+            //var path = Path.Combine(@"K:\Aplikace\TestyVyt3\", "Testy\\" + TestFile);
+            var path = Path.Combine(Path.GetTempPath(), TestFile);
             System.IO.StreamReader reader = new System.IO.StreamReader(path);
             TestText = reader.ReadToEnd(); // LOAD TEST FILE INTO MEMORY (TEST FILE IS STILL ENCRYPTED)
             TestText = Decipher(TestText, 2); // 2 == Encrypt alphabet (Move Alphabet +2 chars)
             reader.Close();
             //var paragraphs = TestText.Split('\n');
             //PublicParagraph = TestText.Split('\n'); // Save paragraph for Global use (RightMouseClick/"-"(Minus) KeyButton)
-
 
 
 
@@ -114,15 +126,23 @@ namespace Caesar_TestFaker
             {
                 index--;
                 //waterMarkLabel.Text = PublicParagraph[index]; // Get previous
-                var path = Path.Combine(@"K:\Aplikace\TestyVyt3\", "Testy\\" + TestFile);
+                //var path = Path.Combine(@"K:\Aplikace\TestyVyt3\Testy\", TestFile);
+                var path = Path.Combine(Path.GetTempPath(), TestFile);
                 waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index-1).Take(1).First(), 2);
             }
             if (e.KeyChar == '+')
             {
                 index++;
+
+
+                if (!testy_checker.Enabled)
+                {
+                    testy_checker.Start();
+                }
                 //waterMarkLabel.Text = PublicParagraph[index];
-                var path = Path.Combine(@"K:\Aplikace\TestyVyt3\", "Testy\\" + TestFile);
-                waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index-1).Take(1).First(), 2);
+                //var path = Path.Combine(@"K:\Aplikace\TestyVyt3\Testy\", TestFile);
+                var path = Path.Combine(Path.GetTempPath(), TestFile);
+                waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index - 1).Take(1).First(), 2);
             }
             if (e.KeyChar == 'a')
             {
@@ -141,6 +161,8 @@ namespace Caesar_TestFaker
             //MessageBox.Show("Right click! :)");
         }
 
+        // DECODING
+        // ||=============================================================||
         public static char cipher(char ch, int key)
         {
             if (!char.IsLetter(ch))
@@ -170,6 +192,7 @@ namespace Caesar_TestFaker
         {
             return Encipher(input, 26 - key);
         }
+        // ||=============================================================||
 
         private static string DecodeFromUtf8(string input)
         {
@@ -179,17 +202,27 @@ namespace Caesar_TestFaker
             return utf8_String;
         }
 
-        private void key_checker_Tick(object sender, EventArgs e)
+        private void testy_checker_Tick(object sender, EventArgs e)
         {
-            
+            Process[] pname = Process.GetProcessesByName("Testy");
+            if (pname.Length == 0)
+            {
+                //Not running
+                Application.Exit();
+            }
+            else
+            {
+                // Running
+            }
         }
 
         private void Watermark_Load(object sender, EventArgs e)
         {
+            
             //actHook = new UserActivityHook(); // crate an instance with global hooks
-                                              // hang on events
+            // hang on events
             //actHook.OnMouseActivity += new MouseEventHandler(MouseMoved);
-           // actHook.KeyPress += new KeyPressEventHandler(MyKeyPress);
+            // actHook.KeyPress += new KeyPressEventHandler(MyKeyPress);
         }
     }
 
