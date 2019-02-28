@@ -1,3 +1,4 @@
+[Čeština](https://github.com/zgruza/TestByPass_/blob/master/readme.cs.md) [Angličtina](https://github.com/zgruza/TestByPass_/blob/master/readme.md)
 # TestByPass
 This is a simple ByPass software on the Tests in our school
 
