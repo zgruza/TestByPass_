@@ -5,6 +5,7 @@ This is a simple ByPass software on the Tests in our school
 ```
 ! Before you run "TestyVytX" run this software :) !
 ! The correct answer starts with the char % !
+>>After completing Test this program itself closes<<
 ```
 
 ## Control
