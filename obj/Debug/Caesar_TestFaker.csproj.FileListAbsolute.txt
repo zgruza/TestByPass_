@@ -1,0 +1,13 @@
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\bin\Debug\Caesar_TestFaker.exe
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\bin\Debug\Caesar_TestFaker.pdb
+C:\Users\Main\Desktop\TestyVyt3\Caesar_TestFaker.exe
+C:\Users\Main\Desktop\TestyVyt3\Caesar_TestFaker.pdb
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.Form1.resources
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.Properties.Resources.resources
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.Watermark.resources
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csproj.GenerateResource.cache
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csproj.CoreCompileInputs.cache
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csproj.CopyComplete
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.exe
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.pdb
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csprojAssemblyReference.cache
