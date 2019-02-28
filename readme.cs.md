@@ -1,4 +1,4 @@
-[Čeština](https://github.com/zgruza/TestByPass_/blob/master/readme.cs.md) [Angličtina](https://github.com/zgruza/TestByPass_/blob/master/readme.md)
+[Čeština](https://github.com/zgruza/TestByPass_/blob/master/readme.cs.md) | [Angličtina](https://github.com/zgruza/TestByPass_/blob/master/readme.md)
 # TestByPass
 Tohle je jednoduchý nástroj na "Zjednodušení" Testu v naší škole
 
