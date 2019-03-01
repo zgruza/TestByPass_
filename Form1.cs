@@ -20,15 +20,22 @@ namespace Caesar_TestFaker
 
         public static char cipher(char ch, int key)
         {
-            if (!char.IsLetter(ch))
+            //if (!char.IsLetter(ch))
+            //{
+            //    return ch;
+            //}
+            if (ch == '%')
             {
-
-                return ch;
+                return '%';
             }
-
+            string[] checkw = { "a", "á", "b", "c", "č", "d", "ď", "e", "é", "ě", "f", "g", "h", "i", "í", "j", "k", "l", "m", "n", "ň", "o", "p", "q", "r", "ř", "s", "š", "t", "ť", "u", "ú", "ů", "v", "w", "x", "y", "ý", "z", "ž", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
             char d = char.IsUpper(ch) ? 'A' : 'a';
-            return (char)((((ch + key) - d) % 26) + d);
-
+            char text_char = (char)((((ch + key) - d) % 26) + d);
+            if (checkw.Contains(text_char.ToString()))
+            {
+                return (char)((((ch + key) - d) % 26) + d);
+            }
+            return ' ';
 
         }
 
