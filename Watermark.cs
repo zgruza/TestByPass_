@@ -124,6 +124,7 @@ namespace Caesar_TestFaker
         {
             if (e.KeyChar == '-')
             {
+                // FIX CRASH ISSUE 
                 try
                 {
                     index--;
@@ -140,6 +141,7 @@ namespace Caesar_TestFaker
             }
             if (e.KeyChar == '+')
             {
+                // FIX CRASH ISSUE 
                 try
                 {
                     index++;
