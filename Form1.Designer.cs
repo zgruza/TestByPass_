@@ -1,4 +1,8 @@
-﻿namespace Caesar_TestFaker
+﻿// _______________________________
+// | THIS FORM IS JUST FOR TEST ! |
+// | THIS IS NOT MAIN CODE        |
+// ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+namespace Caesar_TestFaker
 {
     partial class Form1
     {

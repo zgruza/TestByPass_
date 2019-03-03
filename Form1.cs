@@ -1,4 +1,8 @@
-﻿using System;
+﻿// _______________________________
+// | THIS FORM IS JUST FOR TEST ! |
+// | THIS IS NOT MAIN CODE        |
+// ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
