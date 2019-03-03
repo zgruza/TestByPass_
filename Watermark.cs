@@ -124,25 +124,39 @@ namespace Caesar_TestFaker
         {
             if (e.KeyChar == '-')
             {
-                index--;
+                try
+                {
+                    index--;
+                    var path = Path.Combine(Path.GetTempPath(), TestFile);
+                    waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index - 1).Take(1).First(), 2);
+                }
+                catch
+                {
+                    index++;
+                }
                 //waterMarkLabel.Text = PublicParagraph[index]; // Get previous
                 //var path = Path.Combine(@"K:\Aplikace\TestyVyt3\Testy\", TestFile);
-                var path = Path.Combine(Path.GetTempPath(), TestFile);
-                waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index-1).Take(1).First(), 2);
+               
             }
             if (e.KeyChar == '+')
             {
-                index++;
-
-
+                try
+                {
+                    index++;
+                    var path = Path.Combine(Path.GetTempPath(), TestFile);
+                    waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index - 1).Take(1).First(), 2);
+                }
+                catch
+                {
+                    index--;
+                }
                 if (!testy_checker.Enabled)
                 {
                     testy_checker.Start();
                 }
                 //waterMarkLabel.Text = PublicParagraph[index];
                 //var path = Path.Combine(@"K:\Aplikace\TestyVyt3\Testy\", TestFile);
-                var path = Path.Combine(Path.GetTempPath(), TestFile);
-                waterMarkLabel.Text = Decipher(File.ReadLines(path).Skip(index - 1).Take(1).First(), 2);
+                
             }
             if (e.KeyChar == 'a')
             {

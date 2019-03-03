@@ -10,3 +10,4 @@ C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFak
 C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csproj.CopyComplete
 C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.exe
 C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.pdb
+C:\Users\Main\Desktop\Caesar_TestFaker\Caesar_TestFaker\obj\Debug\Caesar_TestFaker.csprojAssemblyReference.cache
